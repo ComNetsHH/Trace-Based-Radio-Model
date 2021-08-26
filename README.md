@@ -21,7 +21,7 @@ OMNeT++ Trace-Based Radio Model extends the INET's `UnitDiskRadio` to a more rea
 5. Navigate to `radio-model/simulation/omnetpp.ini` in the OMNeT++ IDE and click run. 
 6. Run the following command in the terminal to extract the results into a .csv file using the OMNeT++'s scavetool:
 ```
-cd ~/omnetpp/samples/radio-model/simulation/results/
+cd ./radio-model/simulation/results/
 scavetool export -f 'module(traceBasedRadioModel.host[1].wlan[0].radio.receiver.errorModel) AND name("Signal-to-Noise_Ratio")' -o SNR.csv General-x*.vec
 scavetool export -f 'module(traceBasedRadioModel.host[0].app[0]) AND name("packetSent:count")' -o Packet_sent.csv General-x*.sca
 scavetool export -f 'module(traceBasedRadioModel.host[1].app[0]) AND name("packetReceived:count")' -o Packet_received.csv General-x*.sca
