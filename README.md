@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/397504015.svg)](https://zenodo.org/badge/latestdoi/397504015)
+[![DOI](https://zenodo.org/badge/400262765.svg)](https://zenodo.org/badge/latestdoi/400262765)
 # TraceBasedRadio
 OMNeT++ Trace-Based Radio Model extends the INET's `UnitDiskRadio` to a more realistic model by obtaining the Signal-to-Noise Ratio (SNR) in the `TraceBasedReceiver` and passing the SNR to a novel `TraceBasedErrorModel`, which queries the trace file-provided lookup table to obtain the closest-matching SNR’s mapping to a Packet Error Rate (PER) and Bit Error Rate (BER). This trace file is expected to contain a triple of (SNR, PER and BER) per line as follows:
 | SNR (dB) |  PER |     BER     |
