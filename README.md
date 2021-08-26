@@ -18,7 +18,7 @@ OMNeT++ Trace-Based Radio Model extends the INET's `UnitDiskRadio` to a more rea
     5. Now go to the `Compile` tab and make sure all checkboxes are checked. 
     6. Move to the `Link` tab and make sure that the `Link with libraries exported from...` checkbox is checked. 
     7. Finally, `Apply and Close` and you should be able to `build` the `TraceBasedRadio` project without errors as a project that reference the INET project.
-5. Navigate to `radio-model/simulation/omnet-summit.ini` in the OMNeT++ IDE and click run. 
+5. Navigate to `radio-model/simulation/omnetpp.ini` in the OMNeT++ IDE and click run. 
 6. Run the following command in the terminal to extract the results into a .csv file using the OMNeT++'s scavetool:
 ```
 cd ~/omnetpp/samples/radio-model/simulation/results/
